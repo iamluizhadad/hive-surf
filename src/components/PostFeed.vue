@@ -73,7 +73,7 @@ export default {
         'https://api.openhive.network'
       ])
       const query = {
-        tag: 'skatehive',
+        tag: 'surfhive',
         limit: 69
       }
       const posts = await dhiveClient.database.getDiscussions('created', query)
